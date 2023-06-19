@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'zenler';
+  src:  url('fonts/zenlerc261.eot?ycwla8');
+  src:  url('fonts/zenlerc261.eot?ycwla8#iefix') format('embedded-opentype'),
+    url('fonts/zenlerc261.ttf?ycwla8') format('truetype'),
+    url('fonts/zenlerc261.woff?ycwla8') format('woff'),
+    url('fonts/zenlerc261.svg?ycwla8#zenler') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="zi-"], [class*=" zi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'zenler' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zi-automation:before {
+  content: "\e900";
+}
+.zi-bars:before {
+  content: "\e901";
+}
+.zi-blog:before {
+  content: "\e902";
+}
+.zi-check:before {
+  content: "\e903";
+}
+.zi-community:before {
+  content: "\e904";
+}
+.zi-courses:before {
+  content: "\e905";
+}
+.zi-facebook:before {
+  content: "\e906";
+}
+.zi-funnels:before {
+  content: "\e907";
+}
+.zi-google:before {
+  content: "\e908";
+}
+.zi-instagram:before {
+  content: "\e909";
+}
+.zi-membership:before {
+  content: "\e90a";
+}
+.zi-quizzes:before {
+  content: "\e90b";
+}
+.zi-search:before {
+  content: "\e90c";
+}
+.zi-twitter:before {
+  content: "\e90d";
+}
+.zi-cross:before {
+  content: "\e90e";
+}
+.zi-plus:before {
+  content: "\e90f";
+}
+.zi-circle:before {
+  content: "\e910";
+}
+.zi-circle-2:before {
+  content: "\e911";
+}

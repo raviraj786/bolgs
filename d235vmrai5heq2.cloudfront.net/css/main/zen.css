@@ -1,0 +1,131 @@
+/*!
+* Zenler Inc - v.1.1
+* Copyright 2011-2019 Zenler Website
+* vs
+*/
+
+/*!
+* Bootstrap v4.3.1 (https://getbootstrap.com/)
+* Copyright 2011-2019 The Bootstrap Authors
+* Copyright 2011-2019 Twitter, Inc..replaces-img
+* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+*/
+/*Header*/
+header.zenhead {
+padding-top: 10rem;
+padding-bottom: calc(10rem - 72px);
+background:#fff;
+background:url("../../images/main/bg-zenhead.html");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+}
+header.zenhead h1 {font-size: 2.25rem;}
+header.zenminihead {padding-top: 10rem;}
+.nav-signup {border:1px solid #5394fc; padding:0px 15px !important; border-radius:5px; color:#5394fc; max-width: 90px;}
+/*Header*/
+/*Content Area*/
+.zen-btn-xl {padding:0.8rem 2rem;}
+.zen-nav > li { width: 16.6%; text-align: center;}
+.zen-nav > li > a {display: grid; color: #212529; font-size: 1rem}
+.zen-nav > li > a > img {padding-bottom: 10px;}
+.zen-tab-content {width: 100%;  border: 1px solid #f2f2f2; padding:3%; border-radius:10px; min-height: 300px; -webkit-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);-moz-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.03);}
+
+.zen-bg {background: url(https://d235vmrai5heq2.cloudfront.net/images/main/zen-bg.svg) no-repeat center top; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain;}
+.zen-way-old {width: 100%;  border: 1px solid #f2f2f2; background:#fff; padding:5%; border-radius:10px; -webkit-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);-moz-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.03);}
+.zen-way-old img{max-width: 65%;}
+.zen-way-new {width: 100%;  border: 1px solid #f2f2f2; background:#fff; padding:5%; border-radius:10px; -webkit-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);-moz-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.03);}
+.zen-features {position: relative;  padding:15px 15px 15px 50px; -webkit-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);-moz-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.03);}
+.zen-features i {position: absolute; top: 38px; left:20px; overflow: hidden; font-size: 2rem;}
+.tab-carousel {width: 100%;}
+/*Content Area*/
+
+/*testimonials*/
+.zen-testimonials {position: relative;  padding:15px; -webkit-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);-moz-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02);box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.03);}
+.zen-testimonials img {position: absolute; top: -32px; left:30px; overflow: hidden; font-size: 2rem; max-width: 100px; border-radius: 100%; border: 1px solid #f2f2f2;}
+.zen-testimonials > .card-body > .card-title { margin-left:100px !important;}
+.zen-sp-block { width: 50%; display: block; margin: 0 auto; text-align: center; position: relative; top:20px; -webkit-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02); -moz-box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.02); box-shadow: 1px 1px 5px 3px rgba(50, 50, 50, 0.03);}
+.zen-testimonials > .card-body > blockquote {min-height: 80px; margin:0px;}
+.zen-sp-block i {font-size: 3rem;}
+/*testimonials*/
+
+/**** faq ****/
+.faq-card {border:none;}
+.faq-card-header{background:#fff;border-bottom: 1px solid rgba(0, 0, 0, 0.07); border-top: 1px solid rgba(0, 0, 0, 0.07); padding: 1rem 1.25rem}
+.faq-card-header span{font-size: 18px;}
+/**** //faq ****/
+
+/**** //Pricing ****/
+.zen-price-banner{background:url('https://d235vmrai5heq2.cloudfront.net/images/main/pricing-banner.svg') no-repeat center}
+.zen-price-bg {background: url(https://d235vmrai5heq2.cloudfront.net/images/main/zen-bg.svg) no-repeat center top; -webkit-background-size: contain; -moz-background-size: contain; -o-background-size: contain; background-size: contain;}
+.zen-plan { display: block; margin:0px; padding:0px;  border-top:1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; }
+.zen-plan-top {padding: 30px 20px;}
+.zen-plan-bottom {display: block;  border-top: 1px solid #dbdbdb; padding-top: 10px; text-align: left; padding: 20px;}
+.zen-plan-bottom ul {list-style: none; padding: 0; margin-top: 10px;}
+.zen-plan-bottom li {padding-left: 1.5em; line-height: 22px; margin: 12px 0px;}
+.zen-plan-bottom li:before {
+content: "\e911";
+font-family: 'zenler';
+display: inline-block;
+margin-left: -1.5em;
+margin-right: 0.90em;
+width: 1.0em;
+font-size: 8px;
+color: #5393fc;
+position: relative;
+top: -2;}
+.font-700 {font-weight: 700;}
+.smaller-text {font-size: 14px;}
+.zen-table .heading  {font-size:18px;}
+ .zen-table tr{width: 100%;}
+ .zen-table tr > th{width: 20%;}
+ .zen-table tr > td > .zi-cross{color:#ccc; line-height: 32px;}
+
+/**** //Pricing ****/
+
+/**** //Replace Img ****/
+.zen-step-img > img {position: relative; width: 100%; margin:2% 0;}
+.replaces-img {float: right; max-height:30px; position: relative; top:-20px; opacity: 0.7;}
+/**** //Replace Img ****/
+
+/*footer*/
+.account-bg {background: #fdfdfd; border-top: 1px solid #f1f1f1;border-bottom: 1px solid #f1f1f1;}
+footer a {color:#212529;}
+.footer-up { background:#f3f9ff; text-align: center; padding:40px 0 12px 0px; text-align:left; font-size:14px; font-weight:300;}
+.footer-logo {width: 100px;}
+.social-media li {display: inline-block; padding: 9px 9px 9px 0; font-size: 17px; line-height: 1px!important; color: #3f4142;}
+.footer-up li{line-height:29px;}
+.footer-up .menu-title{font-size: 20px; font-weight: 400;}
+.footer-down {padding: 20px 0; font-size: 14px; font-weight: 300; text-align: center;}
+.footer-down p {margin:0px;}
+/*footer*/
+
+@media (min-width: 992px) {
+header.zenhead {height:450px;/*height: 70vh;*/
+min-height: 450px;padding-top: 72px;padding-bottom: 0;}
+header.zenhead p {font-size: 1rem;}
+header.zenhead h1 {font-size: 3rem;}
+}
+
+@media (min-width: 1200px) {
+header.zenhead h1 {font-size: 3.5rem;}
+}
+
+@media (max-width:768px) {
+.replaces-img {top: -10px;}
+.zen-way-old img{max-width: 85%;}
+}
+
+@media (max-width:991px) {
+
+/***Home Tab Menu ***/
+.nav {display: -webkit-box;overflow: hidden;}
+.zen-nav > li{width:185px;}
+.menu-scroll {overflow-x: scroll;}
+.menu-scroll::-webkit-scrollbar { height: 5px;border-radius:100%;}
+.menu-scroll::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(56, 63, 78, 0.30980392156862746); }
+.menu-scroll::-webkit-scrollbar-thumb { background-color: #ccc; outline: 1px solid #ccc; }
+/***Home Tab Menu ***/
+
+}

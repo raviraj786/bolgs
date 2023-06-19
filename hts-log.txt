@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 28 Dec 2022 14:08:26 at https://blog.nxtinteractive.sg/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://blog.nxtinteractive.sg/ -O1 "C:\Users\shubh\Downloads\NXT Blogs Page" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:08:55	Error: 	"Forbidden" (403) at link https://s3.amazonaws.com/contents.newzenler.com/34045/library/636a8b2d7450c_1667926829_bann.png (from https://blog.nxtinteractive.sg/)
+14:11:30	Error: 	"Not Found" (404) at link https://www.gstatic.com/recaptcha/releases/_7Co1fh8iT2hcjvquYJ_3zSP/recaptcha__en.js (from https://blog.nxtinteractive.sg/register)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 48 seconds : 331 links scanned, 327 files written (65482977 bytes overall) [59493617 bytes received at 206575 bytes/sec], 9116261 bytes transferred using HTTP compression in 169 files, ratio 31%, 1.5 requests per connection
+(2 errors, 0 warnings, 0 messages)
